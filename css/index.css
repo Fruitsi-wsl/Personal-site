@@ -93,8 +93,8 @@ footer {
     display; flex;
     align-items: center;
     background-color: #42d4a3;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 19px;
     width: 100%;
 }
 
@@ -144,3 +144,45 @@ footer p {
     background-image: linear-gradient(to bottom, #68f0c3, #42d4a3);
     text-decoration: none;
   }
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 24px;
+}
+
+
+
+
+/* WhatsApp Tooltip Styling */
+.whatsapp-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.tooltip {
+    visibility: hidden;
+    background-color: #68f0c3;
+    border-color: white;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    bottom: 150%;
+    left: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+}
+
+.whatsapp-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}

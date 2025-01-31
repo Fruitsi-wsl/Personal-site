@@ -25,9 +25,11 @@ header h1 {
 }
 
 footer {
+    display; flex;
+    align-items: center;
     background-color: #42d4a3;
-    padding-top: 40px;
-    padding-bottom: 41px;
+    padding-top: 9px;
+    padding-bottom: 8px;
     width: 100%;
 }
 
@@ -37,6 +39,13 @@ footer h3 {
     text-align: left;
     margin: 10px;
 
+}
+
+footer p {
+    color: white;
+    bottom: 0px;
+    text-align: left;
+    margin: 10px;
 }
 
 nav {
@@ -103,4 +112,45 @@ nav ul li a {
     border: 7px dotted #42d4a3;
     padding: 10px;
     border-radius: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 24px;
+}
+
+
+
+
+/* WhatsApp Tooltip Styling */
+.whatsapp-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.tooltip {
+    visibility: hidden;
+    background-color: #68f0c3;
+    border-color: white;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    bottom: 150%;
+    left: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+}
+
+.whatsapp-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
 }

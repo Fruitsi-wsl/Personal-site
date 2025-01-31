@@ -90,16 +90,27 @@ section {
 }
 
 footer {
+    display; flex;
+    align-items: center;
     background-color: #42d4a3;
-    padding-top: 35px;
-    padding-bottom: 34px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     width: 100%;
+}
+
+footer h3 {
+    color: white;
+    bottom: 0px;
+    text-align: left;
+    margin: 10px;
+
 }
 
 footer p {
     color: white;
     bottom: 0px;
-
+    text-align: left;
+    margin: 10px;
 }
 
 

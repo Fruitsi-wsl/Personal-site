@@ -1,14 +1,23 @@
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
+
 }
 
 header {
+    width: 100%;
     background-color: #42d4a3;
     color: white;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -16,36 +25,75 @@ header h1 {
     text-align: left;
 }
 
-.section-container {
+nav {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 25px;
+}
+
+.section_container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 74.4vh;
     
+}
+
+.left-align{
+    width: 50%;
 
 }
 
+.right-align{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 74.4vh;
+}
+
 section {
-    position: absolute;
     top: 300px;
     left: 100px;
     padding: 20px;
     color: #42d4a3;
 }
 
-section h2{
+ h2{
     font-size: 40px;
+    color: #42d4a3;
 }
 
-section p{
+ p{
     font-size: 25px;
+    color: #42d4a3
+}
+
+#froggy {
+    height: 50%;
+
 }
 
 footer {
     background-color: #42d4a3;
     color: white;
-    padding: 10px;
-    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
     bottom: 0;
 }

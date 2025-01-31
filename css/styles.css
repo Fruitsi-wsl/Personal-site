@@ -23,6 +23,7 @@ header {
 
 header h1 {
     text-align: left;
+    margin-left: 20px;
 }
 
 nav {
@@ -56,7 +57,6 @@ nav ul li a {
 
 .left-align{
     width: 50%;
-
 }
 
 .right-align{
@@ -74,27 +74,62 @@ section {
     color: #42d4a3;
 }
 
- h2{
+ .left-align h2{
     font-size: 40px;
     color: #42d4a3;
 }
 
- p{
+ .left-align p{
     font-size: 25px;
-    color: #42d4a3
+    color: #42d4a3;
 }
 
 #froggy {
-    height: 50%;
+    height: 75%;
 
 }
 
 footer {
     background-color: #42d4a3;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 35px;
+    padding-bottom: 34px;
     width: 100%;
-    bottom: 0;
 }
 
+footer p {
+    color: white;
+    bottom: 0px;
+
+}
+
+
+#more_button {
+    background: #42d4a3;
+    background-image: -webkit-linear-gradient(top, #42d4a3, #44d4cd);
+    background-image: -moz-linear-gradient(top, #42d4a3, #44d4cd);
+    background-image: -ms-linear-gradient(top, #42d4a3, #44d4cd);
+    background-image: -o-linear-gradient(top, #42d4a3, #44d4cd);
+    background-image: linear-gradient(to bottom, #42d4a3, #44d4cd);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #42d4a3;
+    -moz-box-shadow: 0px 1px 3px #42d4a3;
+    box-shadow: 0px 1px 3px #42d4a3;
+    font-family: Georgia;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #42d4a3 2px;
+    text-decoration: none;
+  }
+  
+  #more_button:hover {
+    background: #68f0c3;
+    background-image: -webkit-linear-gradient(top, #68f0c3, #42d4a3);
+    background-image: -moz-linear-gradient(top, #68f0c3, #42d4a3);
+    background-image: -ms-linear-gradient(top, #68f0c3, #42d4a3);
+    background-image: -o-linear-gradient(top, #68f0c3, #42d4a3);
+    background-image: linear-gradient(to bottom, #68f0c3, #42d4a3);
+    text-decoration: none;
+  }

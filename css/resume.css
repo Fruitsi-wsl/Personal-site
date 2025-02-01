@@ -46,14 +46,106 @@ nav ul li a {
     font-size: 25px;
 }
 
+
+h4{
+    font-size: 40px;
+    color:#42d4a3;
+    margin:25px;
+    
+}
+
+
 .section_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:#42d4a3;
+    
+}
+
+.work_experience_left{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 74.4vh;
-    
+    width: 45%;
+    margin-bottom: 49px;
+
 }
+
+
+
+.work_experience_left h5{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.work_experience_left p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.work_experience_left ul{
+    list-style-type: disc;
+    padding-left: 35px;
+    border: 7px solid #42d4a3;
+    border-radius: 15px;
+
+}
+
+.work_experience_left li::marker{
+    font-size: 35px;
+}
+
+.work_experience_left li{
+    color: #42d4a3;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+
+.work_experience_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin-bottom:49px;
+
+}
+
+.work_experience_right h5{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.work_experience_right p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.work_experience_right ul{
+    list-style-type: disc;
+    padding-left: 35px;
+    border: 7px solid #42d4a3;
+    border-radius: 15px;
+
+}
+
+.work_experience_right li::marker{
+    font-size: 35px;
+}
+
+.work_experience_right li{
+    color: #42d4a3;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+
+
+
 
 footer {
     display; flex;

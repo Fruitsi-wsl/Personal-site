@@ -55,12 +55,30 @@ nav ul li a {
     
 }
 
+
 .left_panel_container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 40%;
+}
+
+
+.middle_panel_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width:20%;
+    height: 694px;
+}
+
+.middle_panel_container h1{
+    margin: 0px;
+    color: #42d4a3;
+    font-size: 55px;
+    font-weight: bold;
 }
 
 .right_panel_container{
@@ -68,7 +86,7 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 40%;
 }
 
 .thumbnail_colomn {

@@ -155,6 +155,55 @@ nav ul li a {
     font-size: 25px
 }
 
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0) translate(0, 0); /* Start at 0 size */
+        opacity: 0; /* Initially hidden */
+    }
+    100% {
+        transform: scale(1) translate(0, 0); /* End at full size */
+        opacity: 1; /* Fully visible */
+    }
+}
+
+/* Apply the animation to the video */
+.hover-video1 {
+    display: none; /* Keep the video hidden initially */
+    position: fixed;
+    top: 120px;
+    left: 350px;
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    opacity: 0; /* Initially hidden */
+    animation: scaleIn 0.5s ease-out forwards;
+    animation-delay: 2s; /* Animation when visible */
+}
+
+/* Scale up diagonally */
+.hover-video1.scale-up {
+    animation: scaleIn 0.5s ease-out forwards; /* Animation on hover */
+}
+
+.hover-video2 {
+    display: none; /* Keep the video hidden initially */
+    position: fixed;
+    top: 120px;
+    left: 750px;
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    opacity: 0; /* Initially hidden */
+    animation: scaleIn 0.5s ease-out forwards;
+    animation-delay: 2s; /* Animation when visible */
+}
+
+/* Scale up diagonally */
+.hover-video2.scale-up {
+    animation: scaleIn 0.5s ease-out forwards; /* Animation on hover */
+}
+
 footer {
     display; flex;
     align-items: center;
